@@ -1,16 +1,16 @@
 meta:
     site_title: "博客测试页面"
-    site_subtitle: "人生就是不停的战斗"
+    site_subtitle: "人生就是修行"
     site_language: "zh-cn"
-    absolute_baseurl: http://art.yanping.me
-    domain: yanping.me
+    absolute_baseurl: http://blog.webcb.net
+    domain: webcb.net
     author:
-        full_name:Chen Yanping
-        short_name: ypchen
-        name: ypchen
-        email: chen@yanping.me
+        full_name:chenbing
+        short_name: cb
+        name: cb
+        email: sphawkcn@gmail.com
 
-url: http://art.yanping.me
+url: http://blog.webcb.net
 
 #baseurl: /base
 
