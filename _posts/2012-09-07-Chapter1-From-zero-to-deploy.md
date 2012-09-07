@@ -17,4 +17,4 @@ Welcome to the Ruby on Rails Tutorial. The goal of this book is to be the best a
 
 ##从零开始部署
 
-欢迎来到这个Ruby on Rails 教程。这本书将完美为您解答 “如果我想学习Ruby on Rails网络开发，我应该从哪里开始呢？” 这个问题。当您完成这个Ruby on Rails教程，您会拥有使用Rails开发和部署自己的web应用程序所必需的所有技能。您也将受益于其他高端书籍、博客和视频等一系列丰富多彩的Rails学习资源。最后，本Ruby on Rails 教程使用Rails 3.*版，您在这里获得的知识代表网络开发的最先进技术 (此书的最新版可参阅官网：http://railstutorial.org/。如果您正在离线阅读本书, 请确认您阅读的是本书的最新版本。)
+欢迎来到这个Ruby on Rails 教程。这本书将完美为您解答 “如果我想学习Ruby on Rails网络开发，我应该从哪里开始呢？” 这个问题。当您完成这个Ruby on Rails教程，您会拥有使用Rails开发和部署自己的web应用程序所必需的所有技能。您也将受益于其他高端书籍、博客和视频等一系列丰富多彩的Rails学习资源。最后，本Ruby on Rails 教程使用Rails 3.*版，您在这里获得的知识代表网络开发的最先进技术 (此书的最新版可参阅官网：http://railstutorial.org/。如果您正在离线阅读本书, 请确认您阅读的是本书的最新版本)
