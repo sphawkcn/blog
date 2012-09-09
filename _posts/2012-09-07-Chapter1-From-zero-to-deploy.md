@@ -25,7 +25,11 @@ Note that the goal of this book is not merely to teach Rails, but rather to teac
 
 In this first chapter, we’ll get started with Ruby on Rails by installing all the necessary software and by setting up our development environment (Section 1.2). We’ll then create our first Rails application, called (appropriately enough) first_app. The Rails Tutorial emphasizes good software development practices, so immediately after creating our fresh new Rails project we’ll put it under version control with Git (Section 1.3). And, believe it or not, in this chapter we’ll even put our first app on the wider web by deploying it to production (Section 1.4).
 
+在第一章里，我们将从安装Ruby on Rails所需的必要软件以及设置开发环境开始（1.2节），然后，我们将创建我们的第一个难度适中的Rails程序，叫做first_app。这个Rails教程注重完整的开发实践体验，所以，在创建完我们的第一个Rails程序后，我们将把他加入我们的git版本控制系统（1.3节）。并且，信不信由你，我们甚至会把我们创建的这个程序部署到生产环境中，将他放置在互联网中（1.4节）。
+
 In Chapter 2, we’ll make a second project, whose purpose is to demonstrate the basic workings of a Rails application. To get up and running quickly, we’ll build this demo app (called demo_app) using scaffolding (Box 1.1) to generate code; since this code is both ugly and complex, Chapter 2 will focus on interacting with the demo app through its URIs (sometimes called URLs)1 using a web browser.
+
+在第二章，我们将建立第二个项目来演示Rails应用程序的基本工作方式。为了快速建立并启动程序，我们将使用脚手架功能（scaffolding） (1.1版)来自动生成代码。因此，这些代码是丑陋而又复杂的，不过，我们的重点主要集中在使用浏览器通过URL地址与我们的程序交互。
 
 The rest of the tutorial focuses on developing a single large sample application (called sample_app), writing all the code from scratch. We’ll develop the sample app using test-driven development (TDD), getting started in Chapter 3 by creating static pages and then adding a little dynamic content. We’ll take a quick detour in Chapter 4 to learn a little about the Ruby language underlying Rails. Then, in Chapter 5 through Chapter 9, we’ll complete the foundation for the sample application by making a site layout, a user data model, and a full registration and authentication system. Finally, in Chapter 10 and Chapter 11 we’ll add microblogging and social features to make a working example site.
 
