@@ -25,12 +25,24 @@ Note that the goal of this book is not merely to teach Rails, but rather to teac
 
 In this first chapter, we’ll get started with Ruby on Rails by installing all the necessary software and by setting up our development environment (Section 1.2). We’ll then create our first Rails application, called (appropriately enough) first_app. The Rails Tutorial emphasizes good software development practices, so immediately after creating our fresh new Rails project we’ll put it under version control with Git (Section 1.3). And, believe it or not, in this chapter we’ll even put our first app on the wider web by deploying it to production (Section 1.4).
 
-在第一章里，我们将从安装Ruby on Rails所需的必要软件以及设置开发环境开始（1.2节），然后，我们将创建我们的第一个难度适中的Rails程序，叫做first_app。这个Rails教程注重完整的开发实践体验，所以，在创建完我们的第一个Rails程序后，我们将把他加入我们的git版本控制系统（1.3节）。并且，信不信由你，我们甚至会把我们创建的这个程序部署到生产环境中，将他放置在互联网中（1.4节）。
+在第一章里，我们将从安装Ruby on Rails所需的必要软件以及设置开发环境开始（1.2节），然后，我们将创建我们的第一个难度适中的Rails程序，叫做first_app。本Rails教程注重完整的开发实践体验，所以，在创建完我们的第一个Rails程序后，我们将把他加入我们的git版本控制系统（1.3节）。并且，信不信由你，我们甚至会把我们创建的这个程序作为一个可以正式运行的成品部署到互联网中（1.4节）。
 
 In Chapter 2, we’ll make a second project, whose purpose is to demonstrate the basic workings of a Rails application. To get up and running quickly, we’ll build this demo app (called demo_app) using scaffolding (Box 1.1) to generate code; since this code is both ugly and complex, Chapter 2 will focus on interacting with the demo app through its URIs (sometimes called URLs)1 using a web browser.
 
-在第二章，我们将建立第二个项目来演示Rails应用程序的基本工作方式。为了快速建立并启动程序，我们将使用脚手架功能（scaffolding） (1.1版)来自动生成代码。因此，这些代码是丑陋而又复杂的，不过，我们的重点主要集中在使用浏览器通过URL地址与我们的程序交互。
+在第二章，我们将建立第二个项目来演示Rails应用程序的基本工作方式。为了快速建立并启动程序，我们将使用脚手架功能（scaffolding） (1.1版)来自动生成代码。因此，这些代码是丑陋而又复杂的，不过，我们的重点主要集中在使用浏览器通过URL地址来与我们的程序产生交互，不必在意代码。
 
 The rest of the tutorial focuses on developing a single large sample application (called sample_app), writing all the code from scratch. We’ll develop the sample app using test-driven development (TDD), getting started in Chapter 3 by creating static pages and then adding a little dynamic content. We’ll take a quick detour in Chapter 4 to learn a little about the Ruby language underlying Rails. Then, in Chapter 5 through Chapter 9, we’ll complete the foundation for the sample application by making a site layout, a user data model, and a full registration and authentication system. Finally, in Chapter 10 and Chapter 11 we’ll add microblogging and social features to make a working example site.
 
+教程剩下的部分将着重于从零开始，亲自编写代码，完成一个独立的大型范例程序（叫做sample_app）的开发。我们将使用“测试驱动开发（TDD）”方式来开发这个范例程序。在第三章，我们将从建立一个静态页面开始，然后添加一点动态内容。在第四章，我们将快速学习一些关于Rails需要用到的Ruby语法知识。然后，从第五到第九章，我们将通过建立网站布局、一个用户数据模型和一个完整的注册和认证系统来完成这个范例程序的基本架构。最后，在第十、十一章，我们将通过添加微博和社交功能来建立一个可工作的示例站点。
+
 The final sample application will bear more than a passing resemblance to a certain popular social microblogging site—a site which, coincidentally, was also originally written in Rails. Though of necessity our efforts will focus on this specific sample application, the emphasis throughout the Rails Tutorial will be on general principles, so that you will have a solid foundation no matter what kinds of web applications you want to build.
+
+最终的范例程序与曾经一个微博社交网站非常相似，巧合的是，这个网站曾经也是用Rails搭建的。尽管我们将我们的注意力集中在这个特定的范例程序中，但是，重要的是我们通过他学到的是通用的原则，所以，无论您将要搭建一个什么样的应用程序，你都会有一个坚实的基础。
+
+####Box 1.1.Scaffolding: Quicker, easier, more seductive
+
+From the beginning, Rails has benefited from a palpable sense of excitement, starting with the famous 15-minute weblog video by Rails creator David Heinemeier Hansson. That video and its successors are a great way to get a taste of Rails’ power, and I recommend watching them. But be warned: they accomplish their amazing fifteen-minute feat using a feature called scaffolding, which relies heavily on generated code, magically created by the Rails generate command.
+
+When writing a Ruby on Rails tutorial, it is tempting to rely on the scaffolding approach—it’s quicker, easier, more seductive. But the complexity and sheer amount of code in the scaffolding can be utterly overwhelming to a beginning Rails developer; you may be able to use it, but you probably won’t understand it. Following the scaffolding approach risks turning you into a virtuoso script generator with little (and brittle) actual knowledge of Rails.
+
+In the Ruby on Rails Tutorial, we’ll take the (nearly) polar opposite approach: although Chapter 2 will develop a small demo app using scaffolding, the core of the Rails Tutorial is the sample app, which we’ll start writing in Chapter 3. At each stage of developing the sample application, we will write small, bite-sized pieces of code—simple enough to understand, yet novel enough to be challenging. The cumulative effect will be a deeper, more flexible knowledge of Rails, giving you a good background for writing nearly any type of web application.
